@@ -3,12 +3,8 @@
 Requisitos previos:
 
 1.- XAMP: Instalar XAMPP en tu sistema.
-2.- PHP 8.2:
-
+2.- PHP 8.2
 - Puedes verificar la versión de PHP ejecutando `php -v` desde la línea de comandos.
-
-3.- PostgreSQL 17: Instalar PostgreSQL en tu sistema
-    -Puedes descargarlo desde: https://www.postgresql.org/download/
 
 --------Pasos de Instalacion--------
 1.-Clona el Proyecto en la carpeta htdocs de XAMPP:
