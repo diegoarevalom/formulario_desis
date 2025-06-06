@@ -9,7 +9,7 @@ Requisitos previos:
 
 --------Pasos de Instalacion--------
 1.-Clona el Proyecto en la carpeta htdocs de XAMPP:
-    -git clone http:
+    -git clone git@github.com:diegoarevalom/formulario_desis.git
 
 2.- Configuracion de la BD:
     -Crea una BD en phpMyAdmin con nombre 'db_productos'
