@@ -62,4 +62,4 @@ INSERT INTO Bodegas(nombre_bodega)VALUES
 ('Bodega Central'),('Bodega Norte'),('Bodega Sur');
 
 INSERT INTO Sucursales(id_bodega, nombre_sucursal)VALUES
-(1, 'Sucursal 1'),(2, 'Sucursal 2'),(3, 'Sucursal 3');
+(1, 'Sucursal Centro A'),(1, 'Sucursal Centro B'),(1, 'Sucursal Centro C'),(2, 'Sucursal Norte A'),(2, 'Sucursal Norte B'),(3, 'Sucursal Sur A'),(3, 'Sucursal Sur B'),(3, 'Sucursal Sur C');

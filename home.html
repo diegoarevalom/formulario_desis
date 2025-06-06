@@ -15,13 +15,13 @@
       <div class="form-row">
         <div class="form-group">
           <label for="codigo">Código</label>
-          <input type="text" id="codigo" name="codigo" placeholder="EJ: ART027A" required minlength="5" maxlength="15"
+          <input type="text" id="codigo" name="codigo" required minlength="5" maxlength="15"
             pattern="[a-zA-Z0-9]+" title="Solo letras y números, 5-15 caracteres.">
           <div class="error-message" id="error-codigo"></div>
         </div>
         <div class="form-group">
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre del producto" required
+          <input type="text" id="nombre" name="nombre" required
             minlength="2" maxlength="50">
           <div class="error-message" id="error-nombre"></div>
         </div>
@@ -31,14 +31,14 @@
         <div class="form-group">
           <label for="bodega">Bodega</label>
           <select id="bodega" name="bodega">
-            <option value="">Seleccione una bodega</option>
+            <option value=""></option>
           </select>
           <div class="error-message" id="error-bodega"></div>
         </div>
         <div class="form-group">
           <label for="sucursal">Sucursal</label>
-          <select id="sucursal" name="sucursal">
-            <option value="">Seleccione una sucursal</option>
+          <select id="sucursal" name="sucursal" required disabled>
+            <option value=""></option>
           </select>
           <div class="error-message" id="error-sucursal"></div>
         </div>
@@ -48,7 +48,7 @@
         <div class="form-group">
           <label for="moneda">Moneda</label>
           <select id="moneda" name="moneda">
-            <option value="">Seleccione una moneda</option>
+            <option value=""></option>
           </select>
           <div class="error-message" id="error-moneda"></div>
         </div>

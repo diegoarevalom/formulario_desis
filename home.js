@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showFormMessage(`Error al cargar las bodegas: ${data.message}`, 'error');
         return;
       }
-      bodegaSelect.innerHTML = '<option value="" disabled selected>Seleccione una bodega</option>';
+      // bodegaSelect.innerHTML = '<option value="" disabled selected>Seleccione una bodega</option>';
       data.forEach(bodega => {
         bodegaSelect.appendChild(new Option(bodega.nombre, bodega.id));
       });
