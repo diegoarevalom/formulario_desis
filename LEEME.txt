@@ -1,4 +1,4 @@
------Prueba de Diagnostico Desis Sistema de Registro de Productos----
+-----Prueba de Diagnostico Desis Sistema de Registro de Productos-----
 
 Requisitos previos:
 
@@ -7,12 +7,9 @@ Requisitos previos:
 
 - Puedes verificar la versión de PHP ejecutando `php -v` desde la línea de comandos.
 
-3.- PostgreSQL 17: Instalar PostgreSQL en tu sistema
-    -Puedes descargarlo desde: https://www.postgresql.org/download/
-
 --------Pasos de Instalacion--------
 1.-Clona el Proyecto en la carpeta htdocs de XAMPP:
-    -git clone http:
+    -git clone git@github.com:diegoarevalom/formulario_desis.git
 
 2.- Configuracion de la BD:
     -Crea una BD en phpMyAdmin con nombre 'db_productos'
